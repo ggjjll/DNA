@@ -12,7 +12,7 @@ window.onload = () => {
 function initCanvas() {
   let canvas = document.getElementById('canvas');
   canvasW = canvas.width = canvas.offsetWidth;
-  canvasH = canvas.height = canvas.offsetHeight * 4;
+  canvasH = canvas.height = canvas.offsetHeight * 2;
   ctx = canvas.getContext('2d');
 }
 
